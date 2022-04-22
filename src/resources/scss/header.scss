@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+    color: red;
+    background-color: rgb(63, 42, 137);
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.nav-name{
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

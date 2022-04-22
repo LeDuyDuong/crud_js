@@ -19,6 +19,22 @@ app.get('/', (req, res) => {
   res.render('home');
 })
 
+app.get('/read',(req, res) => {
+  res.render('read');
+})
+
+app.get('/create', (req, res) => {
+  res.render('create');
+})
+
+app.get('/update', (req, res) => {
+  res.render('update');
+})
+
+app.get('/delete', (req, res) => {
+  res.render('delete');
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
